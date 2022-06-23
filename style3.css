@@ -1,0 +1,165 @@
+body{
+	margin-top:0px;
+	padding-top:0px;
+}
+header{
+	background-color:lightblue;
+	color:white;
+	padding:8px 0px 6px 40px;
+	height:90px;
+}
+nav ul{
+	padding:0;
+	padding-left:50px;
+	float:left;
+}
+nav ul li{
+	display:inline-block;
+	list-style-type:none;
+	float:left;
+	margin-right:20px;
+}
+nav ul li a{
+	font-size:25px;
+	text-decoration:none;
+	color:black;
+}
+.homered{
+	background-color:blue;
+	padding:30px 10px 12px 10px;
+	
+}
+.divider{
+	background-color:blue;
+	height:7px;
+}
+.homeblack:hover{
+	background-color:blue;
+	padding:30px 10px 12px 10px;
+}
+.logo{
+	float:left;
+	margin-right:10px;
+    height:100%;
+}
+.inps2{
+	margin:0.5% 2% 0% 40%;
+	padding:0% 1.5% 1.2% 3.5%;	
+}
+.heading1{
+	font-weight:bold;
+	font-size:22px;
+	margin:0;
+	padding:2.5% 5% 0% 40%;
+}
+.heading2{
+	font-weight:bold;
+	font-size:22px;
+	margin:0;
+	padding:2.5% 5% 0% 40%;
+}
+.inps1{
+	
+	width:7%;	
+}
+#heading3{
+	font-size:22px;
+	padding-top:20px;
+	margin-left:40%;
+	font-weight:bold;
+}
+.inps3{
+	margin:0.5% 2% 0% 40%;
+	padding:0% 1.5% 1.2% 3.5%;	
+}
+.inps4{
+	margin:0.5% 2% 0% 40%;
+	padding:0% 1.5% 1.2% 3.5%;	
+}
+.heading4{
+	font-weight:bold;
+	font-size:22px;
+	margin:0;
+	padding:2.5% 5% 0% 40%;
+}
+.inps5{
+	margin:0.5% 2% 0% 40%;
+	padding:0% 1.5% 1.2% 3.5%;	
+}
+.heading5{
+	font-weight:bold;
+	font-size:22px;
+	margin:0;
+	padding:2.5% 5% 0% 40%;
+}
+
+.signupbutton{
+	margin-left:46%;
+	height:5%;
+}
+.image{
+	background:linear-gradient(#aac0e3,#03fc5e);
+    background-size:cover;
+    height:100%;
+	width:100%;
+}
+/*POPUP-FORGOT_PASSWORD-FORM*/
+.form-popup{
+	display:none;
+	position:fixed;
+	bottom:0;
+	right:15px;
+	border:3px solid #f1f1f1;
+	z-index:9;
+}
+.form-container{
+	max-width:300px;
+	padding:10px;
+
+}
+.form-container input[type=text],.form-container input[type=password]{
+	width:100%;
+	padding:10px;
+	margin:5px 0 22px 0;
+	border:none;
+	background:#f1f1f1;
+}
+.form-container input[type=text]:focus,.form-container input[type=password]:focus{
+	background-color:#ddd;
+	outline:none;
+}
+.form-container .btn{
+	background-color:#04AA6D;
+	color:white;
+	padding:10px 20px;
+	border:none;
+	cursor:pointer;
+	width:100%;
+	margin-bottom:15px;
+	opacity:0.8;
+}
+#cancel a{
+	background-color:Red;
+	color:white;
+	padding:10px 132px;
+	border:none;
+	cursor:pointer;
+	margin-bottom:10px;
+	opacity:0.7;
+	text-decoration:none;
+}
+#cancel :hover{
+	opacity:1;
+}
+
+.form-container .btn:hover{
+	opacity:1;
+}
+.forgotaccountnumber{
+	color:black;
+	cursor:pointer;
+	text-align:left;
+}
+.forgotaccountnumber:hover{
+	color:purple;
+}

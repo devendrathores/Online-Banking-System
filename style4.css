@@ -1,0 +1,146 @@
+body{
+	margin-top:0px;
+	padding-top:0px;
+}
+header{
+	background-color:lightblue;
+	color:white;
+	padding:8px 0px 6px 40px;
+	height:90px;
+}
+nav ul{
+	padding:0;
+	padding-left:50px;
+	float:left;
+}
+nav ul li{
+	display:inline-block;
+	list-style-type:none;
+	float:left;
+	margin-right:20px;
+}
+nav ul li a{
+	font-size:25px;
+	text-decoration:none;
+	color:black;
+}
+.homered{
+	background-color:blue;
+	padding:30px 10px 12px 10px;
+	
+}
+.divider{
+	background-color:blue;
+	height:7px;
+}
+.homeblack:hover{
+	background-color:blue;
+	padding:30px 10px 12px 10px;
+}
+.logo{
+	float:left;
+	margin-right:10px;
+    height:100%;
+}
+.heading1{
+	font-weight:bold;
+	font-size:22px;
+	margin:0;
+	padding:2.5% 5% 0% 40%;
+}
+.inps1{
+	margin:0.5% 2% 0% 40%;
+	padding:0% 1.5% 0.5% 3.5%;	
+}
+.heading2{
+	font-weight:bold;
+	font-size:22px;
+	margin:0;
+	padding:2.5% 5% 0% 40%;
+}
+.inps2{
+	margin:0.5% 2% 0% 40%;
+	padding:0% 1.5% 0.5% 3.5%;	
+}
+.heading3{
+	font-weight:bold;
+	font-size:22px;
+	margin:0;
+	padding:2.5% 5% 0% 40%;
+}
+.inps3{
+	margin:0.5% 2% 0% 40%;
+	padding:0% 1.5% 0.5% 3.5%;	
+}
+.heading4{
+	font-weight:bold;
+	font-size:22px;
+	margin:0;
+	padding:2.5% 5% 0% 40%;
+}
+.inps4{
+	margin:0.5% 2% 0% 40%;
+	padding:0% 1.5% 0.5% 3.5%;	
+}
+.heading5{
+	font-weight:bold;
+	font-size:22px;
+	margin:0;
+	padding:2.5% 5% 0% 40%;
+}
+.inps5{
+	margin:0.5% 2% 0% 40%;
+	padding:0% 1.5% 0.5% 3.5%;	
+}
+.heading6{
+	font-weight:bold;
+	font-size:22px;
+	margin:0;
+	padding:2.5% 5% 0% 40%;
+}
+.inps6{
+	margin:0.5% 2% 0% 40%;
+	padding:0% 1.5% 0.5% 3.5%;	
+}
+.heading7{
+	font-weight:bold;
+	font-size:22px;
+	margin:0;
+	padding:2.5% 5% 0% 40%;
+}
+.inps7{
+	margin:0.5% 2% 0% 40%;
+	padding:0% 8.5% 0.5% 3.5%;	
+	text-align:center;
+}
+.heading8{
+	font-weight:bold;
+	font-size:22px;
+	margin:0;
+	padding:2.5% 5% 0% 40%;
+}
+.inps8{
+	margin:0.5% 2% 0% 40%;
+	padding:0% 1.5% 0.5% 3.5%;	
+}
+.heading9{
+	font-weight:bold;
+	font-size:22px;
+	margin:0;
+	padding:2.5% 5% 0% 40%;
+}
+.inps9{
+	margin:0.5% 2% 0% 40%;
+	padding:0% 5.5% 0.5% 3.5%;	
+}
+.createaccountbutton{
+	margin:0.5% 2% 0% 44%;
+	width:10%;
+	height:3%;
+}
+.image{
+	background:linear-gradient(#aac0e3,#03fc5e);
+	background-size:cover;
+    height:200%;
+	width:100%;
+}

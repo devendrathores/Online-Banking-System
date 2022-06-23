@@ -1,0 +1,56 @@
+<html>
+<head><title>login</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<header>
+<nav>
+<img src="images/indian-bank-logo.png" class="logo">
+<ul>
+<li><a class="homeblack" href="home.html">Home</a>
+<li><a class="homered" href="login.html">LogIn</a>
+<li><a class="homeblack" href="signup.html">SignUp</a>
+<li><a class="homeblack" href="contact.html">Contact Us</a>
+</ul>
+</nav>
+</header>
+<div class="divider"></div>
+<div class="image">
+<form method="post" action="login"><br><br><br><br>
+<span id="heading3">USER TYPE:</span>
+<select name="type" class="insp3">
+<option>User</option>
+<option>Admin</option>
+</select>
+<p class="heading1">USERNAME</p>
+<input type="text" name="txtname" class="inps1"autocomplete="off" required>
+<p class="heading2">PASSWORD</p>
+<input type="password" name="passname" class="inps2" required><br>
+<input type="submit" value="LOGIN" class="loginbutton"> 
+</form>
+
+<div class="forgotpassword" onclick="openform()">Forgot Password ? &nbsp &nbsp  </div>
+<!--POPUP-FORGOT_PASSWORD-FORM-->
+<div class="form-popup" id="myform">
+<form method="post" action="forgotpassword" class="form-container">
+<h2>Forgot Password</h2>
+<label for="username"><b>UserName</b></label>
+<input type="text" placeholder="Enter Your Name" name="username"autocomplete="off">
+<label for="accountNum"><b>Account_No</b></label>
+<input type="text" placeholder="Enter Acc/No" name="accountnum" autocomplete="off">
+<button type="submit" class="btn">Get Password</button>
+<span id="cancel"><a href="index.html">Close</a></span>
+</form>
+</div>
+</div>
+
+<script>
+function openform(){
+document.getElementById("myform").style.display="block";
+}
+function closeform(){
+document.getElementById("myform").style.display="none";
+}
+</script>
+</body>
+</html>

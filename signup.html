@@ -1,0 +1,64 @@
+<html>
+<head>
+<link rel="stylesheet" href="style3.css">
+</head>
+<body>
+<header>
+<nav>
+<img src="images/indian-bank-logo.png" class="logo">
+<ul>
+<li><a class="homeblack" href="home.html">Home</a>
+<li><a class="homeblack" href="index.html">LogIn</a>
+<li><a class="homered" href="signup.html">SignUp</a>
+<li><a class="homeblack" href="createaccount.html">Create Account</a>
+<li><a class="homeblack" href="contact.html">Contact Us</a>
+</ul>
+</nav>
+</header>
+<div class="divider"></div>
+<div class="image">
+<form method="post" action="signup"><br><br><br>
+<span id="heading3">USER TYPE:</span>
+<select name="type" class="inps1">
+<option>User</option>
+<option>Admin</option>
+</select>
+<p class="heading5">ENTER ACC/NO</p>
+<input type="text" name="Accountnum"class="inps5" autocomplete="off" required>
+<p class="heading1">ENTER USERNAME</p>
+<input type="text" name="txtname" placeholder="Same as account-username" class="inps2" autocomplete="off">
+<p class="heading2">CREATE PASSWORD</p>
+<input type="password" name="passname" class="inps3" required>
+<p class="heading4">RE-ENTER PASSWORD</p>
+<input type="password" name="repassname" class="inps4" required>
+<br><br>
+<input type="submit" value="REGISTER" class="signupbutton">
+</form>
+
+<span class="forgotaccountnumber" onclick="openform()">Forgot Account/No ? &nbsp &nbsp  </span>
+<!--POPUP-FORGOT_PASSWORD-FORM-->
+<div class="form-popup" id="myform">
+<form method="post"action="forgotsignup" class="form-container">
+<h2>Forgot Account Number</h2>
+<label for="username"><b>UserName</b></label>
+<input type="text" placeholder="Enter Your Name" name="username" autocomplete="off">
+<label for="age"><b>Aadhar Number</b></label>
+<input type="text" placeholder="Enter Aadhar/No" name="aadharno" autocomplete="off">
+<button type="submit" class="btn">Get Acc/No</button>
+<span id="cancel"><a href="signup.html">Close</a></span>
+</form>
+</div>
+</div>
+
+<script>
+function openform(){
+document.getElementById("myform").style.display="block";
+}
+function closeform(){
+document.getElementById("myform").style.display="none";
+}
+</script>
+</body>
+</html>
+
+
